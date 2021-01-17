@@ -150,11 +150,11 @@ h6 {
   max-height: 3em;
 }
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   #header .logo {
     font-size: 28px;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -529,7 +529,6 @@ h6 {
 @media (max-width: 480px), (max-height: 500) {
   #hero {
     height: auto;
-    content: 100%;
   }
   #hero h1 {
     font-size: 28px;
