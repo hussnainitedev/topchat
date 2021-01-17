@@ -529,7 +529,7 @@ h6 {
 @media (max-width: 480px), (max-height: 500) {
   #hero {
     height: auto;
-    width: 100%;
+    content: 100%;
   }
   #hero h1 {
     font-size: 28px;
