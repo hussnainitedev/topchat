@@ -111,12 +111,11 @@ h6 {
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
   [data-aos-delay] {
     /* transition-delay: 0 !important; */
-  }
-}
-
+/* } */
+/* } */
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -527,10 +526,10 @@ h6 {
   }
 }
 
-@media (max-width: 992px), (max-height: 500) {
+@media (max-width: 600px), (max-height: 500) {
   #hero {
     height: auto;
-    width: auto;
+    width: 100%;
   }
   #hero h1 {
     font-size: 28px;
